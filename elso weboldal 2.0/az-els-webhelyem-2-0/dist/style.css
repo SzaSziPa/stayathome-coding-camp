@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  line-height: 150%;
+}
+.main {
+  display: flex;
+  width: 70%;
+  font-size:19px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+header {
+  background-image: url(http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  margin-top: 0;
+}
+.box {
+  position: relative;
+  top: 100px;
+  left: 24%;
+}
+.smalltext {
+  display: flex;
+  position: relative;
+  top: 145px;
+  left: 0%;
+  text-align: left;
+  font-family:'Abril Fatface'; 
+  font-size: 35px;
+}
+.btext {
+  display: flex;
+  position: relative;
+  top: 180px;
+  left: 0%;
+  text-align: left;
+  font-family:'Abril Fatface'; 
+  font-size: 73px;
+}
+main {
+  font-family: 'Josefin Sans';
+  display: block;
+  position: relative;
+  margin: 40px 100px 10px; 
+}
+blockquote {
+  position: relative;
+  background: #444444;
+  padding: 50px 20px 50px 70px;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 60px;
+  text-align: left;
+  line-height: 100%;
+  display: flex;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  font-size: 80px;
+  top: 25px;
+  left: 20px;
+}
+.text-box1 {
+  font-family: 'Josefin Sans';
+  display: block;
+  width: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cim1 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.cim2 {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.cim3 {
+  font-size: 18px;
+  font-style: italic;
+}
+p {
+  font-size: 14px;
+}
+.text-box2 {
+  font-family: 'Josefin Sans';
+  display: block;
+  width: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hr {
+  color: black;
+  size: 15px;
+  weight: 100%;
+}
+hr {
+  background: black;
+  height: 4px;
+  margin-top: 50px;
+}
+.cim4 {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 50px;
+  margin-top: 50px;
+  margin-left: 0;
+}
+.fixelemek {
+  display: flex;
+  bottom: 10px;
+  right: 25px;
+  cursor: pointer;
+  position: fixed;
+  
+}
+#comments {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  border: solid thin;
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+  position: fixed;
+  display: block;
+  bottom: 10px;
+  right: 25px;
+  cursor: pointer;
+}
+#comments:hover {
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  transition: width 1s;
+  text-align: center;
+}
+#Inspect{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  border: solid thin;
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+  position: fixed;
+  display: flex;
+  bottom: 10px;
+  right: 85px;
+  cursor: pointer;
+}
+#Inspect:hover {
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  transition: width 1s;
+  text-align: center;
+}
+#Screens{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  border: solid thin;
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+  position: fixed;
+  display: flex;
+  bottom: 10px;
+  right: 145px;
+  cursor: pointer;
+}
+#Screens:hover {
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  transition: width 1s;
+  text-align: center;
+}
