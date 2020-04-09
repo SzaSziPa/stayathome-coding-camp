@@ -1,0 +1,20 @@
+body {
+width: 20%;
+} 
+p {
+color: blue;
+background-color: yellow;
+}
+div {
+    color: blue;
+    font-weight: bold;
+}
+#b325, #b326 {
+    border: solid green;
+    border-width: 1px;
+    width: 100%;
+    height: 20px;
+    padding-left: 2px;
+    padding-top: 2px;
+    color: black;
+}
