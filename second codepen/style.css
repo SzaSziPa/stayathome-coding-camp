@@ -1,28 +1,30 @@
 main {
     border: 5px solid #4285f4;
-    color: white;
-    width: 300px;
+    width: 200px;
   }
-  .red {
+  
+  p {
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .north {
     background: #E67676;
   }
-  .yellow {
+  
+  .east {
     background: #F2F062;
   }
-  .light-blue {
+  
+  .south {
     background: #A9E6E6;
   }
-  .blue {
+  
+  .west {
     background: #7692E4;
-  }
-  .centered {
-    text-align: center;
-    font-size: 24px;
-    font-family: "Baloo Thambi 2", cursive;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    margin: 0px;
-  }
-  header {
-    font-weight: bold;
   }
