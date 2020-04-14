@@ -1,0 +1,19 @@
+ol {
+    list-style-type: upper-roman;
+  }
+  h1 {
+    color: #eb625d;
+  }
+  h2 {
+    color: #8628d4;
+  }
+  .pink {
+    color: #eb59e0;
+  }
+  .text {
+    text-decoration-style: underlined;
+  }
+  ol li {
+    text-decoration: underline; 
+    cursor: pointer;
+  }
