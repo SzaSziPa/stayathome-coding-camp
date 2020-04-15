@@ -1,7 +1,10 @@
 let names = ['Stepan', 'Noemi', 'Nimrod', 'Amalia', 'Sabina'];
-let felsorolas = $('.ul').first();
-console.log(felsorolas)
+$('ul li').remove();
 names.forEach(element => {
     console.log(element)
+    $('ul').append(
+        `<li>${element}</li>`
+    );
 });
+
 
