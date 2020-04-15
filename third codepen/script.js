@@ -5,6 +5,9 @@ names.forEach(element => {
     $('ul').append(
         `<li>${element}</li>`
     );
+    if (element == 'Sabina') {
+
+    }
 });
 
 
