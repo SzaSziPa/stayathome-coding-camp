@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(94, 253, 237);
+    font-family: 'Open Sans';
+}
+.container {
+    background-color: rgb(238, 231, 217);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3px;
+    margin-top: 35px;
+    padding-bottom: 35px;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
